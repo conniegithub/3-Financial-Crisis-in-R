@@ -84,9 +84,9 @@ w <- r*cov(X,X)
 #EWMA
 #---------------------------------------------------------------------------------------------------------------
 #load X, Y values
-#data <- read.csv("C:/Users/yongy/Documents/My SAS Files/9.4/financial crisis project/2001-2007returns.csv", header=TRUE)
-#data <- read.csv("C:/Users/yongy/Documents/My SAS Files/9.4/financial crisis project/2007-2009returns.csv", header=TRUE)
-data <- read.csv("C:/Users/yongy/Documents/My SAS Files/9.4/financial crisis project/2009-2016returns.csv", header=TRUE)
+#data <- read.csv("C:/Users/../financial crisis project/2001-2007returns.csv", header=TRUE)
+#data <- read.csv("C:/Users/../financial crisis project/2007-2009returns.csv", header=TRUE)
+data <- read.csv("C:/Users/../financial crisis project/2009-2016returns.csv", header=TRUE)
 
 N = 500
 #N = 250
