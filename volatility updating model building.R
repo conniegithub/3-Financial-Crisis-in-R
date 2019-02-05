@@ -77,13 +77,13 @@ li <- -2*log((1-p)^(T00+T10)*p^(T01+T11)) + 2*log((1-p01)^(T00)*p01^T01*(1-p11)^
 #----------------------------------------------------------------------------------------------------------------------------
 #GARCH
 #----------------------------------------------------------------------------------------------------------------------------
-dataR <- read.csv("C:/Users/yongy/Documents/My SAS Files/9.4/financial crisis project/2001-2007returns.csv", header=TRUE)
-#dataR <- read.csv("C:/Users/yongy/Documents/My SAS Files/9.4/financial crisis project/2007-2009returns.csv", header=TRUE)
-#dataR <- read.csv("C:/Users/yongy/Documents/My SAS Files/9.4/financial crisis project/2009-2016returns.csv", header=TRUE)
+dataR <- read.csv("C:/Users/../financial crisis project/2001-2007returns.csv", header=TRUE)
+#dataR <- read.csv("C:/Users/../financial crisis project/2007-2009returns.csv", header=TRUE)
+#dataR <- read.csv("C:/Users/../financial crisis project/2009-2016returns.csv", header=TRUE)
 
-dataW <- read.csv("C:/Users/yongy/Documents/My SAS Files/9.4/financial crisis project/2001-2007w.csv", header=TRUE)
-#dataW <- read.csv("C:/Users/yongy/Documents/My SAS Files/9.4/financial crisis project/2007-2009w.csv", header=TRUE)
-#dataW <- read.csv("C:/Users/yongy/Documents/My SAS Files/9.4/financial crisis project/2009-2016w.csv", header=TRUE)
+dataW <- read.csv("C:/Users/../financial crisis project/2001-2007w.csv", header=TRUE)
+#dataW <- read.csv("C:/Users/../financial crisis project/2007-2009w.csv", header=TRUE)
+#dataW <- read.csv("C:/Users/../financial crisis project/2009-2016w.csv", header=TRUE)
 
 ba <- c(0.9396944, 0.02989006)
 #ba <- c(0.9479066, 0.04957637)
