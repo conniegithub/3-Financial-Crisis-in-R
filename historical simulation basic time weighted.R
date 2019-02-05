@@ -1,13 +1,13 @@
 #----------------------------------------------------------------------------------------------------------------------------
 #BASIC
 #----------------------------------------------------------------------------------------------------------------------------
-#dataR <- read.csv("C:/Users/yongy/Documents/My SAS Files/9.4/financial crisis project/2001-2007returns.csv", header=TRUE)
-#dataR <- read.csv("C:/Users/yongy/Documents/My SAS Files/9.4/financial crisis project/2007-2009returns.csv", header=TRUE)
-dataR <- read.csv("C:/Users/yongy/Documents/My SAS Files/9.4/financial crisis project/2009-2016returns.csv", header=TRUE)
+#dataR <- read.csv("C:/Users/../financial crisis project/2001-2007returns.csv", header=TRUE)
+#dataR <- read.csv("C:/Users/../financial crisis project/2007-2009returns.csv", header=TRUE)
+dataR <- read.csv("C:/Users/../financial crisis project/2009-2016returns.csv", header=TRUE)
 
-#dataV <- read.csv("C:/Users/yongy/Documents/My SAS Files/9.4/financial crisis project/2001-2007value.csv", header=TRUE)
-#dataV <- read.csv("C:/Users/yongy/Documents/My SAS Files/9.4/financial crisis project/2007-2009value.csv", header=TRUE)
-dataV <- read.csv("C:/Users/yongy/Documents/My SAS Files/9.4/financial crisis project/2009-2016value.csv", header=TRUE)
+#dataV <- read.csv("C:/Users/../financial crisis project/2001-2007value.csv", header=TRUE)
+#dataV <- read.csv("C:/Users/../financial crisis project/2007-2009value.csv", header=TRUE)
+dataV <- read.csv("C:/Users/../financial crisis project/2009-2016value.csv", header=TRUE)
 
 N = 500
 #N = 250
