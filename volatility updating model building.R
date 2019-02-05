@@ -1,9 +1,9 @@
 #----------------------------------------------------------------------------------------------------------------------------
 #EWMA
 #----------------------------------------------------------------------------------------------------------------------------
-#dataR <- read.csv("C:/Users/yongy/Documents/My SAS Files/9.4/financial crisis project/2001-2007returns.csv", header=TRUE)
-#dataR <- read.csv("C:/Users/yongy/Documents/My SAS Files/9.4/financial crisis project/2007-2009returns.csv", header=TRUE)
-dataR <- read.csv("C:/Users/yongy/Documents/My SAS Files/9.4/financial crisis project/2009-2016returns.csv", header=TRUE)
+#dataR <- read.csv("C:/Users/../financial crisis project/2001-2007returns.csv", header=TRUE)
+#dataR <- read.csv("C:/Users/../financial crisis project/2007-2009returns.csv", header=TRUE)
+dataR <- read.csv("C:/Users/../financial crisis project/2009-2016returns.csv", header=TRUE)
 
 #lambda = 0.9832675
 #lambda = 0.9691219
