@@ -1,8 +1,8 @@
 #---------------------------------------------------------------------------------------------------------------
 #load X, Y values
-data <- read.csv("C:/Users/yongy/Documents/My SAS Files/9.4/financial crisis project/2001-2007returns.csv", header=TRUE)
-#data <- read.csv("C:/Users/yongy/Documents/My SAS Files/9.4/financial crisis project/2007-2009returns.csv", header=TRUE)
-#data <- read.csv("C:/Users/yongy/Documents/My SAS Files/9.4/financial crisis project/2009-2016returns.csv", header=TRUE)
+data <- read.csv("C:/Users/../financial crisis project/2001-2007returns.csv", header=TRUE)
+#data <- read.csv("C:/Users/../financial crisis project/2007-2009returns.csv", header=TRUE)
+#data <- read.csv("C:/Users/../financial crisis project/2009-2016returns.csv", header=TRUE)
 
 u <- as.numeric(unlist(data[1:500,1]))
 L <- length(u)
